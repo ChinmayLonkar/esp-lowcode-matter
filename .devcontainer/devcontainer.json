@@ -27,6 +27,43 @@
                 "terminal.integrated.scrollback": 20000,
                 "workbench.startupEditor": "none",
                 "editor.snippetSuggestions": "inline"
+            },
+            "mcp": {
+                "servers": {
+                    "idf-builder": {
+                      "command": "/workspace/esp-lowcode-matter/mcp_tools/examples/idf-builder/venv/bin/python3",
+                      "args": [
+                        "/workspace/esp-lowcode-matter/mcp_tools/examples/idf-builder/server.py"
+                      ],
+                      "env": {
+                        "PATH": "/workspace/esp-lowcode-matter/mcp_tools/examples/idf-builder/venv/bin:/workspace/esp-idf/tools:/workspace/esp-idf/components/espcoredump:/workspace/esp-idf/components/partition_table:/workspace/esp-idf/components/app_update:/workspace/esp-idf/components/espcoredump:/workspace/esp-idf/components/partition_table:/workspace/esp-idf/components/app_update:/root/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin:/root/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20250707/riscv32-esp-elf/bin:/root/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin:/root/.espressif/python_env/idf5.3_py3.11_env/bin:/workspace/esp-idf/tools:/root/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20250707/riscv32-esp-elf/bin:/root/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin:/workspace/esp-idf/tools:/root/.espressif/python_env/idf5.3_py3.11_env/bin:/vscode/bin/linux-x64/cb1933bbc38d329b3595673a600fab5c7368f0a7/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/vcpkg:/root/.local/bin",
+                        "IDF_PATH": "/workspace/esp-idf",
+                        "IDF_PYTHON_ENV_PATH": ""
+                      }
+                    },
+                    "device-test": {
+                      "command": "/workspace/esp-lowcode-matter/mcp_tools/examples/device-test/venv/bin/python3",
+                      "args": [
+                        "/workspace/esp-lowcode-matter/mcp_tools/examples/device-test/server.py"
+                      ],
+                      "env": {
+                        "PATH": "/workspace/esp-lowcode-matter/mcp_tools/examples/device-test/venv/bin:/workspace/esp-idf/tools:/workspace/esp-idf/components/espcoredump:/workspace/esp-idf/components/partition_table:/workspace/esp-idf/components/app_update:/workspace/esp-idf/components/espcoredump:/workspace/esp-idf/components/partition_table:/workspace/esp-idf/components/app_update:/root/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin:/root/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20250707/riscv32-esp-elf/bin:/root/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin:/root/.espressif/python_env/idf5.3_py3.11_env/bin:/workspace/esp-idf/tools:/root/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20250707/riscv32-esp-elf/bin:/root/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin:/workspace/esp-idf/tools:/root/.espressif/python_env/idf5.3_py3.11_env/bin:/vscode/bin/linux-x64/cb1933bbc38d329b3595673a600fab5c7368f0a7/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/vcpkg:/root/.local/bin",
+                        "IDF_PATH": "/workspace/esp-idf",
+                        "IDF_PYTHON_ENV_PATH": ""
+                      }
+                    },
+                    "system": {
+                      "command": "/workspace/esp-lowcode-matter/mcp_tools/examples/system/venv/bin/python3",
+                      "args": [
+                        "/workspace/esp-lowcode-matter/mcp_tools/examples/system/server.py"
+                      ],
+                      "env": {
+                        "PATH": "/workspace/esp-lowcode-matter/mcp_tools/examples/system/venv/bin:/workspace/esp-idf/tools:/workspace/esp-idf/components/espcoredump:/workspace/esp-idf/components/partition_table:/workspace/esp-idf/components/app_update:/workspace/esp-idf/components/espcoredump:/workspace/esp-idf/components/partition_table:/workspace/esp-idf/components/app_update:/root/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin:/root/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20250707/riscv32-esp-elf/bin:/root/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin:/root/.espressif/python_env/idf5.3_py3.11_env/bin:/workspace/esp-idf/tools:/root/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20250707/riscv32-esp-elf/bin:/root/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin:/workspace/esp-idf/tools:/root/.espressif/python_env/idf5.3_py3.11_env/bin:/vscode/bin/linux-x64/cb1933bbc38d329b3595673a600fab5c7368f0a7/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/vcpkg:/root/.local/bin",
+                        "IDF_PATH": "/workspace/esp-idf",
+                        "IDF_PYTHON_ENV_PATH": ""
+                      }
+                   }
+                }
             }
         }
     },
