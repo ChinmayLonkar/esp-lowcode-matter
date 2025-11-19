@@ -1,0 +1,42 @@
+{
+  "servers": {
+    "idf-builder": {
+      "command": "{MCP_TOOLS_DIR}/examples/idf-builder/venv/bin/python3",
+      "args": [
+        "{MCP_TOOLS_DIR}/examples/idf-builder/server.py"
+      ],
+      "env": {
+        "PATH": "{PATH_WITH_IDF_TOOLS}",
+        "IDF_PATH": "{ESP_IDF_PATH}",
+        "IDF_PYTHON_ENV_PATH": "{IDF_PYTHON_ENV_PATH}"
+      },
+      "description": "ESP-IDF build system integration tool for compiling and managing ESP32 projects. Provides build, clean, and configuration management for firmware development. Requires ESP-IDF installation."
+    },
+
+    "device-test": {
+      "command": "{MCP_TOOLS_DIR}/examples/device-test/venv/bin/python3",
+      "args": [
+        "{MCP_TOOLS_DIR}/examples/device-test/server.py"
+      ],
+      "env": {
+        "PATH": "{PATH_WITH_IDF_TOOLS}",
+        "IDF_PATH": "{ESP_IDF_PATH}",
+        "IDF_PYTHON_ENV_PATH": "{IDF_PYTHON_ENV_PATH}"
+      },
+      "description": "ESP32 I2C testing and verification server with dual-device support for Device Under Test (DUT) and I2C Sniffer Probe (TESTER). Provides I2C transaction monitoring, log merging, protocol verification, serial monitoring, firmware flashing, and comprehensive I2C communication analysis."
+    },
+
+    "system": {
+      "command": "{MCP_TOOLS_DIR}/examples/system/venv/bin/python3",
+      "args": [
+        "{MCP_TOOLS_DIR}/examples/system/server.py"
+      ],
+      "env": {
+        "PATH": "{PATH_WITH_IDF_TOOLS}",
+        "IDF_PATH": "{ESP_IDF_PATH}",
+        "IDF_PYTHON_ENV_PATH": "{IDF_PYTHON_ENV_PATH}"
+      },
+      "description": "File system operations, documentation processing, and patch management. Supports PDF extraction, web page reading, file search and manipulation, patch application, and image analysis for technical diagrams."
+    }
+  }
+}

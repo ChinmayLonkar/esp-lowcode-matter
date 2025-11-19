@@ -1,0 +1,10 @@
+{
+    "mcpServers": {
+        "custom-tool": {
+            "command": "python3",
+            "args": [
+                "/Users/chirag/work/gitlab/extra_repos/yolo/mcp_tools/examples/template/server.py"
+            ]
+        }
+    }
+}

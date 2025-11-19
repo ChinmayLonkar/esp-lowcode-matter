@@ -1,0 +1,33 @@
+# Virtual environments
+examples/*/venv/
+**/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Generated configuration
+config/detected_environment.json
+config/mcp.json
+examples/*/config.info
+examples/*/nvs.csv
+examples/*/nvs.bin
+
+# Database files
+examples/*/data/*.db
+
+# Log files
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+

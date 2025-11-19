@@ -1,0 +1,10 @@
+{
+    "mcpServers": {
+        "number-adder": {
+            "command": "python3",
+            "args": [
+                "/Users/chirag/work/gitlab/extra_repos/yolo/mcp_tools/examples/number-adder/server.py"
+            ]
+        }
+    }
+}

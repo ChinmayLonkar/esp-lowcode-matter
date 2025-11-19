@@ -1,0 +1,34 @@
+# Serial Communication
+pyserial>=3.5
+
+# ESP32 Tools
+esptool>=4.0.0
+esp-idf-nvs-partition-gen>=0.1.0
+
+# Web Server (optional, for WebSocket receiver)
+flask>=2.0.0
+flask-socketio>=5.0.0
+python-socketio>=5.0.0
+
+# LLM Integration (for testing with LLMs)
+openai>=1.0.0
+litellm==1.75.0
+
+# MCP (Model Context Protocol)
+fastmcp==2.2.6
+mcp==1.6.0
+
+# Terminal UI
+textual>=0.41.0
+rich>=13.0.0
+
+# Async HTTP
+aiohttp>=3.9.0
+
+# Utilities
+pathlib
+python-dotenv>=1.0.0
+
+# Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
