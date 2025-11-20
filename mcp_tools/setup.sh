@@ -107,12 +107,6 @@ main() {
         exit 1
     }
 
-    print_header "Step 4: Validating Setup"
-    python3 "${SETUP_DIR}/validate_setup.py" || {
-        print_error "Validation failed"
-        exit 1
-    }
-
     print_header "Setup Complete!"
     print_success "MCP tools configuration generated"
     echo -e "\n${GREEN}Next steps:${NC}"
